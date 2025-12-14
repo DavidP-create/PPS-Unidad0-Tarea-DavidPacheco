@@ -12,12 +12,10 @@ site_name: PPS_Unidad0-Tarea-DavidPacheco # Define el título que aparecerá en 
 nav:
   # El nombre de la sección en el menú: nombre_archivo.md
   - Home: index.md             # Primer elemento del menú, enlaza con el archivo 'index.md'.
-  - Git:           # Segundo elemento del menú, enlaza con el archivo 'git.md'.
-  - GitActions:  # Tercer elemento del menú, enlaza con el archivo 'gitActions.md'.
-  - GitPages:     # Cuarto elemento del menú, enlaza con el archivo 'gitpages.md'.
-  - Docker: 
-  - Conclusiones: 
-  - Otros:
+  - Git: git.md      # Segundo elemento del menú, enlaza con el archivo 'git.md'.
+  - GitActions: gitActions.md  # Tercer elemento del menú, enlaza con el archivo 'gitActions.md'.
+  - Docker: docker.md
+  - Conclusiones: conclusiones.md
   # Se pueden añadir subsecciones anidando listas:
   # - Referencia: 
   #   - Funciones: referencia/funciones.md
@@ -28,7 +26,7 @@ nav:
 # -------------------------------------------------------------
 # Ruta de la carpeta que contiene todos los archivos .md (Markdown) de la documentación.
 # MkDocs buscará aquí los archivos listados en 'nav'.
-doc_dir: docs 
+doc_dir: docs
 # -------------------------------------------------------------
 # TEMA (Opcional, pero común)
 # -------------------------------------------------------------
